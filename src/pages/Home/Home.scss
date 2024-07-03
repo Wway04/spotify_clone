@@ -1,0 +1,22 @@
+.home {
+  .home-inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home-heading {
+    padding-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    h4 {
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    a {
+      opacity: 0.6;
+    }
+  }
+}

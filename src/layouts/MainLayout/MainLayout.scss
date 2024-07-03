@@ -1,0 +1,21 @@
+.main-layout {
+  display: flex;
+  gap: 12px;
+  height: 100vh;
+  background-color: #000;
+  overflow: hidden;
+  padding: 12px;
+
+  .container-custom {
+    flex: 1;
+    background-color: #121212;
+    border-radius: 8px;
+    overflow: auto;
+    max-height: 100vh;
+  }
+
+  .inner {
+    min-height: 500px;
+    margin-bottom: 60px;
+  }
+}
